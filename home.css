@@ -19,15 +19,8 @@ body {
   padding-left: 3vw;
 }
 
-.right article {
-  color: #ff7f50;
+.right {
   text-align: right;
-  font-size: 3vw;
-  font-family: Goudy Bookletter 1911;
-  padding-bottom: 10vw;
-  padding-right: 32vw;
-  text-decoration: underline;
-  text-underline-offset: 10px;
 }
 
 .right .iconify {
@@ -38,10 +31,24 @@ body {
   right: 10px;
 }
 
+/* Note: vw allows images to update as the window size changes */
+figure {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 13vw;
+  right: 30vw;
+}
+
 img {
   width: 20vw;
   height: 20vw;
-  position: absolute;
-  right: 35vw;
-  bottom: 23vw;
+}
+
+figcaption {
+  color: #ff7f50;
+  font-size: 3vw;
+  font-family: Goudy Bookletter 1911;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
