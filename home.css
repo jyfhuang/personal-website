@@ -37,3 +37,11 @@ body {
   top: 10px;
   right: 10px;
 }
+
+img {
+  width: 20vw;
+  height: 20vw;
+  position: absolute;
+  right: 35vw;
+  bottom: 23vw;
+}
