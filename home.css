@@ -1,0 +1,39 @@
+body {
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #ff7f50 0%,
+    #ff7f50 40%,
+    #e5e5e5 40%,
+    #e5e5e5 100%
+  );
+}
+
+.left {
+  color: #e5e5e5;
+  text-align: left;
+  font-weight: 900;
+  font-size: 13vw;
+  font-family: Helvetica;
+  padding-top: 17vw;
+  padding-left: 3vw;
+}
+
+.right article {
+  color: #ff7f50;
+  text-align: right;
+  font-size: 3vw;
+  font-family: Goudy Bookletter 1911;
+  padding-bottom: 10vw;
+  padding-right: 32vw;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.right .iconify {
+  width: 3vw;
+  height: 3vw;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
