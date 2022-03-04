@@ -20,7 +20,7 @@ body {
 }
 
 .right {
-  text-align: right;
+  float: right;
 }
 
 .right .iconify {
@@ -37,7 +37,7 @@ figure {
   text-align: center;
   position: absolute;
   top: 13vw;
-  right: 30vw;
+  right: 32vw;
 }
 
 img {
@@ -51,4 +51,14 @@ figcaption {
   font-family: Goudy Bookletter 1911;
   text-decoration: underline;
   text-underline-offset: 10px;
+}
+
+h1 {
+  text-align: left;
+  font-weight: 500;
+  font-size: 5vw;
+  font-family: system-ui;
+  position: absolute;
+  top: 8vw;
+  right: 1vw;
 }
